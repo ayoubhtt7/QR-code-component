@@ -28,11 +28,15 @@ background-color: var(--Light-gray);
 color: var(--Dark-blue);
 }
 #card {
-    width: 400px;
-    height: 600px;
+    width: 330px;
+    height: 510px;
     background-color: var(--White);
     border-radius: 15px;
     padding: 25px 20px;
+    transform: translate(-50% , -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
 
 
 }
@@ -44,6 +48,14 @@ color: var(--Dark-blue);
 
 }
 #card > h2 {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    margin: 20px 0;
 
-
+}
+#card > p {
+text-align: center;
+color: var(--Grayish-blue);
+margin: 0 14px;
+     
 }
